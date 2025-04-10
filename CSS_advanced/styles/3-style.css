@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+    /* custom properties */
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
+body {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+}
+
+/* class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* class card-category */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* class section-tagline */
+.section-tagline {
+    color: var(--color-primary);
+}
